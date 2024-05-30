@@ -1,6 +1,7 @@
 import random
 from textEditor import TextEditor
 
+
 class ImageEditor:
 
     def encode(image, text, lyambda):
