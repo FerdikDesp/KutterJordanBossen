@@ -2,13 +2,12 @@ from PIL import Image
 from imageEditor import ImageEditor
 from textEditor import TextEditor
 
-
 #Объявление переменных
 sigma = 3
 lyambda = 0.3
 text = "This is awesome text!"
 
-image = Image.open("nature_old.jpg")
+image = Image.open("nature.jpg")
 
 encodedImage, pixels = ImageEditor.encode(image, text, lyambda)
 
