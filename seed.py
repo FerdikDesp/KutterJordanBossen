@@ -1,5 +1,6 @@
 class Seed:
 
+
     def generate(text, seed):
         pixels = []
         countOfBits = (len(text) + 1) * 8

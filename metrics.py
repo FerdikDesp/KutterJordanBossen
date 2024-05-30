@@ -1,5 +1,6 @@
 class Metrics:
 
+
     def maxD(image, encodedImage):
         
         r, g, b = 0, 0, 0

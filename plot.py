@@ -1,5 +1,6 @@
 class Plot:
 
+
     def errorProbabilities(lambdas, sigma, encodedText, imageSRC, encodedImageSRC):
         from imageEditor import ImageEditor
         from textEditor import TextEditor

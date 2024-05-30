@@ -1,5 +1,6 @@
 class TextEditor:
 
+
     def toBinary(text):
         binarytext = ""
         for symbol in text:
